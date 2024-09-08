@@ -1,0 +1,43 @@
+[debug] [2024-07-22T11:09:23.015Z] ----------------------------------------------------------------------
+[debug] [2024-07-22T11:09:23.018Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ALMOHANDS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2024-07-22T11:09:23.018Z] CLI Version:   13.13.3
+[debug] [2024-07-22T11:09:23.018Z] Platform:      win32
+[debug] [2024-07-22T11:09:23.019Z] Node Version:  v20.15.1
+[debug] [2024-07-22T11:09:23.019Z] Time:          Mon Jul 22 2024 14:09:23 GMT+0300 (توقيت شرق أوروبا الصيفي)
+[debug] [2024-07-22T11:09:23.019Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-22T11:09:23.022Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-07-22T11:09:23.133Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"flutter"}
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=292741692&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-07-22T11:09:28.615Z] Unable to open URL: Error: spawn UNKNOWN
+    at ChildProcess.spawn (node:internal/child_process:421:11)
+    at Object.spawn (node:child_process:761:9)
+    at module.exports (C:\Users\ALMOHANDS\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\open\index.js:114:34)
+    at open (C:\Users\ALMOHANDS\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:135:5)
+    at Server.<anonymous> (C:\Users\ALMOHANDS\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:368:13)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:531:35)
+    at Server.emit (node:domain:488:12)
+    at emitListeningNT (node:net:1932:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[debug] [2024-07-22T11:09:32.731Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-07-22T11:09:32.732Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-07-22T11:23:22.747Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2024-07-22T11:23:22.747Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2024-07-22T11:23:31.882Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2024-07-22T11:23:31.882Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[info] 
+[info] +  Success! Logged in as zweensam@gmail.com 
+[debug] [2024-07-22T11:23:41.925Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\ALMOHANDS\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:268:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
